@@ -44,5 +44,5 @@ print("Generating predictions...")
 submission['isFraud'] = model.predict(X_test)
 
 # 9. Save final file
-submission.to_csv('submission.csv', index=False)
+submission.to_csv('Results.csv', index=False)
 print("file created")
