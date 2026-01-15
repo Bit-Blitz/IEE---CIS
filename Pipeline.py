@@ -1,11 +1,11 @@
-import pandas as pd # type: ignore
+import pandas as pd 
 import numpy as np
-import lightgbm as lgb # type: ignore
-from sklearn.model_selection import TimeSeriesSplit # type: ignore
-from sklearn.preprocessing import LabelEncoder # type: ignore
+import lightgbm as lgb
+from sklearn.model_selection import TimeSeriesSplit 
+from sklearn.preprocessing import LabelEncoder 
 import gc
 import pickle
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score # type: ignore
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report, roc_auc_score 
 
 # --- 1. SETTINGS & UTILS ---
 def reduce_mem_usage(df):
