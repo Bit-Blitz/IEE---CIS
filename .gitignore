@@ -1,2 +1,6 @@
 
 venv/
+train_identity.csv
+train_transaction.csvvenv/
+*.csv
+*.pkl
